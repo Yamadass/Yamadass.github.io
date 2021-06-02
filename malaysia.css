@@ -1,0 +1,64 @@
+@charaset "utf-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: arial unicode ms;
+	/*font-family: Times New Roman;*/
+	/*font-family: Georgia, serif;*/
+	/*font-family: Hiragino Kaku Gothic Std;
+	font-weight: normal;*/
+	letter-spacing: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	height: 100px;
+	padding: 50px 30px;
+}
+
+.header-left {
+	font-size: 30px;
+	float: left;
+	font-weight: bold;
+}
+
+.header-left:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.header-right {
+	float: right;
+	padding-top: 10px;
+}
+
+.header-right a {
+	padding: 0 10px;
+}
+
+.header-right a:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.main-photo {
+	
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.main-photo img {
+	padding: 20px;
+	width: 400px;
+}
