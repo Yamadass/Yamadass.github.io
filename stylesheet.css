@@ -1,0 +1,114 @@
+@charaset "utf-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: arial unicode ms;
+	/*font-family: Times New Roman;*/
+	/*font-family: Georgia, serif;*/
+	/*font-family: Hiragino Kaku Gothic Std;
+	font-weight: normal;*/
+	letter-spacing: 10px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	height: 100px;
+	padding: 50px 30px;
+}
+
+.header-left {
+	font-size: 30px;
+	float: left;
+	font-weight: bold;
+}
+
+.header-left:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.header-right {
+	float: right;
+	padding-top: 10px;
+}
+
+.header-right a {
+	padding: 0 10px;
+}
+
+.header-right a:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.main {
+	margin: 30px;
+}
+
+
+
+.mask {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 150%;
+	opacity: 0;
+	padding-left: 100px;
+	transition: 1s;
+}
+
+.mask:hover {
+	opacity: 1;
+	transition: 2s;
+}
+
+.main-pic , img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	position: relative;
+	margin-bottom: 3px;
+	overflow: hidden;
+	transition: 10s;
+}
+
+.main-pic:hover img {
+	transform: scale(1.02);
+	transition: 10s;
+}
+
+.main-pic:hover img {
+	opacity: 0.3;
+
+}
+
+.main-pic {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 4px;
+}
+/*
+footer {
+	height: 500px;
+	background-color: white;
+}
+*/
+
